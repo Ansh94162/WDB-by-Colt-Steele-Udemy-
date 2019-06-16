@@ -1,0 +1,10 @@
+<% include partials/header %>
+
+<h>You Fell In Love With: <%= thingvar.toUpperCase() %> </h>
+<% if(thingvar.toLowerCase() === "disha"){ %>
+ <p>Good Choice! Disha is the best!</p>
+<% } else { %>
+<p>Bad Choice You Should Have Entered DiSHA</p>
+<% } %>
+
+<% include partials/footer %>

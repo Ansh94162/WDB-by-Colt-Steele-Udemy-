@@ -1,0 +1,3 @@
+show dbs => It will show all database contents
+use yelp_camp => It will switch to yelp camp database
+db.collection.drop => It will Delete Everything from Data BAse
